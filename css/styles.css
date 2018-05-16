@@ -1,0 +1,47 @@
+body {
+    box-sizing: border-box;
+
+}
+
+li {
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header{
+    width: 100%;
+}
+
+.list {
+    width: 50%;
+}
+.cat-info {
+    width: 50%;
+}
+
+.cat-pic {
+    width: 100%;
+    cursor: pointer;
+}
+
+h1 {
+    color: #1E92E6;
+    text-align: center;
+}
+
+h3 {
+    margin: 0.5em auto;
+}
+
+h4 {
+    margin: 0.5em auto;
+}
+.num, .num2, .name {
+    color: #FF7B28;
+}
